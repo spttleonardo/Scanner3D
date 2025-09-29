@@ -15,3 +15,17 @@ This repository contains an application associated with a **3D Scanner**. To bet
 - For more videos associated with our presentation, they are available in this  
   [.zip folder](https://drive.google.com/file/d/1N20Z_zjHRKc9odGZHWb6_GX7lxXO_AKM/view?usp=sharing).
 
+### DEVICES 
+
+Below is the setup scenario used in our project:
+
+![Scenario](Documents/cenario.png)
+
+### RESULTS 
+
+ere are some sample results from our application:
+
+![Adult Doll](Documents/results/adultdoll.gif)
+![Baby Doll](Documents/results/babydoll.gif)
+![Lotus](Documents/results/lotus.gif)
+![Mug](Documents/results/mug.gif)

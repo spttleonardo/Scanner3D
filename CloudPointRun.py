@@ -8,12 +8,12 @@ import open3d as o3d
 CALIB_FILE   = './CameraCalibration/camera_calibration_charuco.npz'
 
 # Configuração videos 1 até 3
-# REF_RVEC    = np.array([-0.04539768,  0.49278872, -1.55983302])
-# REF_TVEC    = np.array([-0.0058707,   0.10990249,  0.47977395])
-# LASER_NORM  = np.array([0.97771972, 0.09235763,  -0.18850524])
-# LASER_D     = 0.09127957687542472
-# Y_MIN, Y_MAX = 300, 900
-# X_MIN, X_MAX = 300, 1000
+REF_RVEC    = np.array([-0.04539768,  0.49278872, -1.55983302])
+REF_TVEC    = np.array([-0.0058707,   0.10990249,  0.47977395])
+LASER_NORM  = np.array([0.97771972, 0.09235763,  -0.18850524])
+LASER_D     = 0.09127957687542472
+Y_MIN, Y_MAX = 300, 900
+X_MIN, X_MAX = 300, 1000
 
 # Configuração videos 5 até 23
 # REF_TVEC    = np.array([0.01266874, 0.10931843, 0.49754032])
@@ -25,15 +25,15 @@ CALIB_FILE   = './CameraCalibration/camera_calibration_charuco.npz'
 
 
 # Configuração videos 24 até 35
-REF_RVEC    = np.array([-0.12992581, 0.40412338, -1.52086446])
-REF_TVEC    = np.array([0.01266874, 0.10931843, 0.49754032])
-LASER_NORM  = np.array([0.96742069, 0.06058479, -0.24581843])
-LASER_D     = 0.11423071255976615
-Y_MIN, Y_MAX = 300, 900
-X_MIN, X_MAX = 300, 1000
+# REF_RVEC    = np.array([-0.12992581, 0.40412338, -1.52086446])
+# REF_TVEC    = np.array([0.01266874, 0.10931843, 0.49754032])
+# LASER_NORM  = np.array([0.96742069, 0.06058479, -0.24581843])
+# LASER_D     = 0.11423071255976615
+# Y_MIN, Y_MAX = 300, 900
+# X_MIN, X_MAX = 300, 1000
 
 
-VIDEO_PATH   = './assets/videos/dataset/video_025.avi'
+VIDEO_PATH   = './assets/videos/dataset/video_001.avi'
 THRESH       = 170
 U0    = 913
 DELTA = 50
